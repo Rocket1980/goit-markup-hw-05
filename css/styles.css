@@ -90,7 +90,7 @@ span {
   position: relative;
 }
 
-.nav-link.active-page:hover::after {
+.nav-link.active-page::after {
   content: '';
   position: absolute;
   background: #2196f3;
