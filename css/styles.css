@@ -234,7 +234,8 @@ span {
 .icon-button {
   width: 11px;
   height: 11px;
-  margin: 0;
+
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -244,8 +245,13 @@ span {
 
 .modal-button {
   position: absolute;
-  right: 8px;
   top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .peculiarity {
