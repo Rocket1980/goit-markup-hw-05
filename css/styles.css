@@ -236,8 +236,10 @@ span {
   height: 11px;
   margin: 0;
   padding: 0;
-
-  fill: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #000;
 }
 
 .modal-button {
