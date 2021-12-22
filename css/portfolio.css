@@ -257,13 +257,18 @@ span {
 }
 
 .overlay > p {
+  display: flex;
+  align-items: center;
   width: 322px;
   height: 168px;
   color: #ffffff;
-  padding: 10px;
   margin: 0;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
-  font-family: var(--primary-font);
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .projects {
